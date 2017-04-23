@@ -6,8 +6,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Build a Portfolio</title>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"async></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"async></script>
         <link rel="stylesheet" href="js/main.js">
         <link href="https://fonts.googleapis.com/css?family=Lato:100,400" rel="stylesheet">
         <link rel="stylesheet" href="css/main.css" />
@@ -25,11 +25,8 @@
                 </div>
             </header>
             <div class="row">
-                <div class="col-md-12"></div>
-                <hr>
-            </div>
-            <div class="row">
                 <section class="col-md-12">
+                    <hr>
                     <!--Here I've attached my CV in Carousal mode-->
                     <div id="CV_Carousel" class="carousel slide" data-ride="carousel">
                         <ol class="carousel-indicators">
@@ -146,9 +143,8 @@
                         </div>
                         <div class="modal-body">
                             <img class="img-responsive" src="images/project3.png">
-                            <article>
-                                In this project you will be building a multi user blog(along the lines of Medium) where users can sign in and post blog posts as well as 'Like' and 'Comment' on other posts made on the blog. You will be hosting this blog on Google App Engine and you will also be creating an authentication system for users to be able to register and sign in and then create blog posts!
-                            </article>
+                            <p>In this project you will be building a multi user blog(along the lines of Medium) where users can sign in and post blog posts as well as 'Like' and 'Comment' on other posts made on the blog. You will be hosting this blog on Google App Engine and you will also be creating an authentication system for users to be able to register and sign in and then create blog posts!
+                            </p>
                         </div>
                         <div class="modal-footer">
                             <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -157,8 +153,8 @@
                 </div>
             </div>
         </div>
-        <footer class="text-center">
-            <section id="social" class="container">
+        <footer class="container text-center">
+            <section id="social" class="row">
                 <hr>
                 <div class="col-md-3">
                     <a href="https://www.facebook.com/" class="zocial-facebook">Facebook</a>
