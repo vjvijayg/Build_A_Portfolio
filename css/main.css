@@ -4,27 +4,6 @@ body {
     font-weight: 400;
 }
 
-.text-muted {
-    color: #bcbbbb;
-}
-
-.text-thin {
-    font-weight: 100;
-}
-
-.title-super {
-    font-size: 40px;
-}
-
-.title-logo {
-    margin-top: 20px;
-}
-
-hr {
-  border-style: inset;
-  border-width: 1px;
-}
-
 html {
   font-size: 14px;
 }
@@ -45,6 +24,27 @@ html {
   html {
     font-size: 28px;
   }
+}
+
+hr {
+  border-style: inset;
+  border-width: 1px;
+}
+
+.text-muted {
+    color: #bcbbbb;
+}
+
+.text-thin {
+    font-weight: 100;
+}
+
+.title-super {
+    font-size: 40px;
+}
+
+.title-logo {
+    margin-top: 20px;
 }
 
 @import url(http://weloveiconfonts.com/api/?family=zocial);
