@@ -14,4 +14,13 @@ This Build A Portfolio is part of the
 1. Clone or Download project repository [here](https://github.com/vjvijayg/Build_A_Portfolio)
 2. Double click on the file `index.html` then the default browser will automatically open up and display the output.
 
+#### Software and tools/frameworks used:
+* [Bootstrap](http://bootstrapdocs.com/v3.0.3/docs/getting-started/)
+* [Grunt](https://gruntjs.com/getting-started)
+* [Gulp](http://gulpjs.com/)
+
+#### Skills gained:
+* html
+* css
+
 Please checkout the wiki to see the output of the Project.
